@@ -1,6 +1,6 @@
 <section class="section">
     <div class="container">
-        <h2 class="pb-6">
+        <h2 class="pb-4">
             QGIS supporters
         </h2>
 
@@ -18,22 +18,19 @@
                             <article class="tile is-child box is-transparent is-flex is-justify-content-center is-align-items-center">
                                 <a href="{{ .Params.link }}">
                                     <figure>
-                                        <img src="{{ .Site.BaseURL }}funders/{{ .Params.logo }}" alt="{{ .Params.title }}" width="300vw">
+                                        <img src="{{ .Site.BaseURL }}funders/{{ .Params.logo }}" alt="{{ .Params.title }}" >
                                     </figure>
                                 </a>
                             </article>
-                            <center>
                                 {{ if eq .Params.level "Flagship" }}
-                                    <p class="is-size-6 has-text-weight-bold" style="color: #F1903B">
+                                    <p class="is-size-6 partner-title" style="color: #F1903B">
                                         Golden partner
                                     </p>
                                 {{ else }}
-                                    <p class="is-size-6 has-text-weight-bold" style="color: #8e8e8e">
+                                    <p class="is-size-6 partner-title" style="color: #8e8e8e">
                                         Silver partner
                                     </p>
                                 {{ end }}
-                                <br>
-                            </center>
                         </div>
                     {{ end }}
                 {{ end }}
@@ -54,7 +51,7 @@
                                 <article class="tile is-child box is-transparent is-flex is-justify-content-center is-align-items-center p-0">
                                     <a href="{{ .Params.link }}">
                                         <figure >
-                                            <img class="grayscale" src="{{ .Site.BaseURL }}funders/{{ .Params.logo }}" alt="{{ .Params.title }}" width="150vw">
+                                            <img class="grayscale" src="{{ .Site.BaseURL }}funders/{{ .Params.logo }}" alt="{{ .Params.title }}">
                                         </figure>
                                     </a>
                                 </article>
