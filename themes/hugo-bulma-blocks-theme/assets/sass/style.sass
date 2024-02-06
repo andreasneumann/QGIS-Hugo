@@ -314,3 +314,30 @@ h2
 .coloring-6
   h1, h2, h3, h4, h5, h6
     color: #fff
+
+@media screen and (max-width: 768px) 
+  .rich
+    flex-direction: column-reverse;
+  .has-right .cont::after
+    width: 100%;
+@media screen and (max-width: 1407px) 
+  .cont 
+    padding: 40px
+  .has-right 
+    .cont
+      width: 85%
+  .content
+    max-width: 736px
+    & > .columns 
+      flex-direction: column
+      flex-direction: column
+      justify-content: center
+      & > .column 
+        width: 100%
+        display: block
+        flex-basis: 0
+        flex-grow: 1
+        flex-shrink: 1
+        padding: 0.75rem
+
+
