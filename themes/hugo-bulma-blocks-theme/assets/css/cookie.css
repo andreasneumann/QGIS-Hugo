@@ -1,15 +1,6 @@
-* {
-    margin: 0;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-}
-
-p {
+.cookie-container p {
     margin: 16px 0 8px;
     line-height: 1.4;
-    font-weight: 400;
 }
 
 .wrapper {
